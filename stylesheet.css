@@ -1,5 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Yrsa&display=swap');
 
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #D4BB57;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #D57500; 
+  border-radius: 2px;
+}
+
+/* Halaman Web */
+
 * {
 	box-sizing: border-box;
 	margin:  0;
