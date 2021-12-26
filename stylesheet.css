@@ -258,6 +258,14 @@ figure figcaption {
 	margin-bottom: 23px;
 }
 
+.hasil-item:nth-last-of-type(1) {
+	margin-right: 0;
+}
+
+.hasil-item:nth-last-of-type(3) {
+	margin-right: 0;
+}
+
 .hasil-item img {
 	width: 165px;
 	height: 165px;
