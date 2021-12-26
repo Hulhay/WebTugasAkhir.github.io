@@ -362,3 +362,18 @@ sup {
 .profil-image img {
 	height: 500px;
 }
+
+/* Footer */
+
+.footer-container {
+	height: 176px;
+	background-color: #8F3B1B;
+	color: #ffffff;
+	display: flex;
+	justify-content: center;
+  	align-items: center;
+	font-style: normal;
+	font-weight: 300;
+	font-size: 24px;
+	line-height: 29px;
+}
