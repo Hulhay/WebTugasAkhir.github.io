@@ -283,3 +283,82 @@ sup {
 .judul-kolom {
 	font-weight: normal;
 }
+
+/* Profil */
+
+.profil-container {
+	height: 712px;
+	background-color: #D57500;
+	padding-top: 52px;
+}
+
+.profil-container h2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	line-height: 58px;
+	text-align: center;
+}
+
+.profil-content {
+	display: flex;
+}
+
+.profil-info {
+	width: 55%;
+}
+
+.profil-info img {
+	width: 35px;
+	height: 35px;
+	float: left;
+	margin-right: 10px;
+}
+
+.profil-info h3 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	line-height: 44px;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: 103px;
+}
+
+.profil-info h4 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+	text-align: right;
+	padding-top: 19px;
+	padding-bottom: 27px;
+}
+
+.profil-info ul {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	padding-left: 152px;
+}
+
+.profil-info li {
+	list-style: none;
+	padding-bottom: 36px;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 29px;
+}
+
+.profil-info a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.profil-image {
+	padding-left: 82px;
+}
+
+.profil-image img {
+	height: 500px;
+}
