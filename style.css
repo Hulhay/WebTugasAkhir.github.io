@@ -168,20 +168,17 @@ header p {
 
 .ilustrasi {
 	width: 50%;
-	/*background-color: white;*/
 	padding-right: 75px;
 }
 
 .ilustrasi-1 {
 	display: flex;
 	justify-content: start;
-	/*background-color: red;*/
 }
 
 .ilustrasi-2 {
 	display: flex;
 	justify-content: end;
-	/*background-color: grey;*/
 	padding-top: 10px;
 }
 
@@ -200,7 +197,6 @@ figcaption {
 	font-style: normal;
 	font-weight: normal;
 	font-size: 24px;
-	/*background-color: yellow;*/
 }
 
 /* Pendahuluan End */
