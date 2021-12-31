@@ -59,6 +59,12 @@
 	.profil-sosmed a {
 		width: 13%;
 	}
+
+	/* Footer */
+
+	footer p {
+		font-size: 18px;
+	}
 }
 
 /* Small Device */
