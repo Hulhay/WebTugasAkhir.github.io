@@ -45,6 +45,10 @@
 /* Small Device */
 
 @media screen and (max-width: 576px) {
+
+	.pendahuluan-1, .pendahuluan-2, .metode {
+		padding: 0 23px;
+	}
 	
 	/* Nav */
 
@@ -78,8 +82,8 @@
 
 	/* Header */
 
-	header, .pendahuluan-1, .pendahuluan-2, .metode, {
-		padding: 0 23px;
+	header {
+		padding: 0 15px;
 	}
 
 	header {
