@@ -179,6 +179,10 @@
 
 	/* Profil */
 
+	.profil {
+		padding-top: 23px;
+	}
+
 	.profil-items {
 		flex-direction: column;
 		justify-content: center;
