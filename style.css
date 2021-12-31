@@ -1,3 +1,22 @@
+/* Scrollbar Start */
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #D4BB57;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #D57500; 
+  border-radius: 2px;
+}
+
+/* Scrollbar End */
+
+/* Page Start */
+
 html {
   scroll-behavior: smooth;
 }
@@ -13,9 +32,11 @@ body {
 	overflow-x: hidden;
 }
 
+/* Page End */
+
 /* Nav Start */
 
-/* Nav Logo and Nav Item */
+	/* Nav Logo and Nav Item */
 
 nav {
 	display: flex;
@@ -49,7 +70,7 @@ nav ul li a {
 	font-size: 1.5em;
 }
 
-/* Hamburger Menu */
+	/* Hamburger Menu */
 
 .menu-toggle {
 	display: none;
@@ -79,7 +100,7 @@ nav ul li a {
 	transition: all 0.5s;
 }
 
-/* Hamburger Menu Animation */
+	/* Hamburger Menu Animation */
 
 .menu-toggle span:nth-child(2) {
 	transform-origin: 0 0;
@@ -393,4 +414,4 @@ footer p {
 	font-size: 24px;
 }
 
-/* Footer End */
+/* Footer End 
