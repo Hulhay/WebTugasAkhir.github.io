@@ -46,7 +46,7 @@
 
 @media screen and (max-width: 576px) {
 
-	.pendahuluan-1, .pendahuluan-2, .metode {
+	.pendahuluan-1, .pendahuluan-2, .metode, .hasil {
 		padding: 0 23px;
 	}
 	
