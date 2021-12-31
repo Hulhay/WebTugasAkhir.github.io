@@ -72,7 +72,7 @@
 
 	/* Header */
 
-	header, .pendahuluan-1, .pendahuluan-2 {
+	header, .pendahuluan-1, .pendahuluan-2, .metode {
 		padding: 0 23px;
 	}
 
@@ -111,6 +111,14 @@
 	}
 
 	/* Metode */
+
+	.metode {
+		padding-top: 76px;
+	}
+
+	.metode h2 {
+		text-align: center;
+	}
 
 	.metode-item {
 		width: 80%;
