@@ -40,13 +40,32 @@
 	.hasil-item {
 		width: 100%;
 	}
+
+	/* Profil */
+
+	.profil {
+		padding-right: 23px;
+		padding-left: 23px;
+	}
+
+	.profil-info {
+		width: 80%;
+	}
+
+	.profil-foto img {
+		width: 75%;
+	}
+
+	.profil-sosmed a {
+		width: 13%;
+	}
 }
 
 /* Small Device */
 
 @media screen and (max-width: 576px) {
 
-	.pendahuluan-1, .pendahuluan-2, .metode, .hasil {
+	.pendahuluan-1, .pendahuluan-2, .metode, .hasil, .profil {
 		padding: 0 23px;
 	}
 	
@@ -156,6 +175,34 @@
 	table {
 		font-size: 18px;
 		margin-top: 22px;
+	}
+
+	/* Profil */
+
+	.profil-items {
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.profil-foto {
+		padding: 0;
+		margin: 0 auto;
+		width: 100%;
+		text-align: right;
+	}
+
+	.profil h3, .profil p {
+		text-align: center;
+	}
+
+	.profil-info {
+		width: 100%;
+		padding: 23px;
+	}
+
+	.profil-sosmed {
+		text-align: center;
+		padding-top: 23px;
 	}
 
 

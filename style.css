@@ -270,7 +270,6 @@ figcaption {
 }
 
 .hasil-items {
-	/*background-color: grey;*/
 	margin: 0 auto;
 	justify-content: space-between;
 	display: flex;
@@ -305,3 +304,74 @@ table {
 }
 
 /* Hasil End */
+
+/* Profil Start */
+
+.profil {
+	background-color: #D57500;
+	padding: 76px;
+}
+
+.profil-items {
+	display: flex;
+	flex-direction: row-reverse;
+	/*background-color: orange;*/
+	justify-content: space-evenly;
+}
+
+.profil-foto {
+	/*background-color: gray;*/
+}
+
+.profil-foto img {
+	width: 90%;
+}
+
+.profil-info {
+	/*background-color: white;*/
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding-right: 23px;
+}
+
+.profil-sosmed {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	text-align: right;
+	/*background-color: pink;*/
+}
+
+.profil h2 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 48px;
+	text-align: center;
+}
+
+.profil h3 {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 36px;
+	text-align: right;
+}
+
+.profil p {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	text-align: right;
+}
+
+.profil-sosmed a {
+	display: block;
+	width: 15%;
+}
+
+.profil-sosmed img {
+	width: 100%;
+}
+
+/* Profil End */
