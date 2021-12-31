@@ -34,6 +34,12 @@
 	.metode-item {
 		width: 46%;
 	}
+
+	/* Hasil */
+
+	.hasil-item {
+		width: 100%;
+	}
 }
 
 /* Small Device */
@@ -72,8 +78,12 @@
 
 	/* Header */
 
-	header, .pendahuluan-1, .pendahuluan-2, .metode {
+	header, .pendahuluan-1, .pendahuluan-2, .metode, {
 		padding: 0 23px;
+	}
+
+	header {
+		text-align: center;
 	}
 
 	header h1 {
@@ -122,6 +132,26 @@
 
 	.metode-item {
 		width: 80%;
+	}
+
+	/* Hasil */
+
+	.hasil {
+		padding-top: 76px;
+	}
+
+	.hasil h2 {
+		text-align: center;
+	}
+
+	.hasil-item {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	table {
+		font-size: 18px;
+		margin-top: 22px;
 	}
 
 
