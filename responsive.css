@@ -28,6 +28,12 @@
 	.ilustrasi img {
 		max-width: 100%;
 	}
+
+	/* Metode */
+
+	.metode-item {
+		width: 46%;
+	}
 }
 
 /* Small Device */
@@ -102,6 +108,12 @@
 	.ilustrasi-2 {
 		margin-top: 0px;
 		padding-left: 10px;
+	}
+
+	/* Metode */
+
+	.metode-item {
+		width: 80%;
 	}
 
 
